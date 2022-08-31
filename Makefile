@@ -1,5 +1,6 @@
-CC = gcc
-CFLAGS = -g -O2
+CC = arm-linux-gnueabihf-gcc
+
+CFLAGS = -g -O2 -static
 OBJECTS = memhog.o
 
 memhog : $(OBJECTS)
